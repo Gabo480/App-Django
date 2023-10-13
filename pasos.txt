@@ -1,0 +1,54 @@
+---saber versiones de los progrmas
+nombrePrograma --version
+
+-----obtener acceso a git de manera global en el SO
+git config --global user.name 'Gabo480'
+git config --global user.mail 'gabriel.cortes.martinez17@gmail.com'
+
+--instalar pip--
+
+------dirigir a la ruta
+cd C:\Users\gabim\Documents\Tec-Semestre 9- Ago-DIC\Inteligencia artificial\IA
+
+----descargar venv
+python -m venv venv
+
+-----activar entorno virtual 
+.\venv\Scripts\activate.bat
+
+----instalar django
+pip install django
+
+---crear proyecto de Django
+django-admin startproject ia01
+
+---mover la carpeta venv a la carpeta del proyecto 
+---y reactivar entorno virtual dentro de la carpeta del proyecto
+cd nombre de la carpeta del proyecto
+.\venv\Scripts\activate.bat
+
+----ejecutar el servidorr a traves del manage.py
+manage.py runserver 
+"si no funciona usar este "
+python manage.py runserver
+
+--abrimos la direccion url que nos deja
+--en el navegador el mimso url lo copiamos y le agregamoos
+/admin/
+
+--En nueva terminal asemos lo siguiente
+	-entramos a la ruta del proyecto
+	-activamos entorno virtual
+	.\venv\Scripts\activate.bat
+	-ejecutamos el siguiente comando
+	-----ejecuta las migraciones de la bases de datos
+	python manage.py migrate
+
+
+---continua segundo video minuto 3 
+
+---crear un administrador 
+python manage.py createsuperuser
+
+--crear entorno virtual
+
